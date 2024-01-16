@@ -64,6 +64,8 @@ $validShows = filterInvalidShows($shows);
         foreach ($validShows as $name => $date) {
             echo '<strong>' . $name . '</strong>: ' . $date . '<br>';
         }
+
+
         ?>
     </div>
 </body>
